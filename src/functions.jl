@@ -17,16 +17,31 @@ Parentheses are necessary.
 """
 ∠(z::Complex) = angle(z)
 ∠(ω::Real) = cis(ω)
+@vectorize_1arg Complex ∠
+@vectorize_1arg Real ∠
 
 "Function composition (\\circ)"
-f∘g = x->f(g(x))
+function (f∘g)
+    function (args...)
+        f(g(args...))
+    end
+end
 
-"Negation (\\neg)"
+"Bitwise egation (\\neg)"
 const ¬ = ~
+"Bitwise and (\\wedge)"
 const ∧ = &
+"Bitwise or (\\vee)"
 const ∨ = |
+"Bitwise xor (\\oplus)"
 const ⊕ = $
-# Some more logical symbols?
 
 "Sigmoid function (\\mitS)"
 𝑆(t) = 1/(1+exp(-t))
+# TODO: maybe some library has a better implementation
+@vectorize_1arg Number 𝑆
+
+"Fast Fourier transform (\\mscrF)"
+const ℱ = fft
+"Inverse fast Fourier transform (\\mscrF\\^-\\^1)"
+const ℱ⁻¹ = ifft

@@ -21,7 +21,7 @@ Symbol | Tab  | Description
 τ      | tau  | 2pi
 ρ      | rho  | Prime constant
 𝑒      | mite | e
-𝑐      | mitc | Speed of light (also regular c)
+𝑐      | mitc | Speed of light
 𝑖      | miti | Imaginary unit (im)
 𝑗      | mitj | jm (Quaternion)
 𝑘      | mitk | km (Quaternion)
@@ -29,6 +29,8 @@ Symbol | Tab  | Description
 ⊥      | bot  | False
 ℝ      | BbbR | Real
 ℤ      | BbbZ | Integer
+ℕ₀     | \\BbbN\\_0 | Natural numbers with zero
+ℚ      | BbbQ | Rational numbers
 ℂ      | BbbC | Complex
 ℍ      | BbbH | Quaternion
 ℜ      | Re   | Real part of complex number
@@ -45,10 +47,12 @@ pc     |       | Parsec
 μ₀     | \\mu\\_0 | Magnetic constant or vacuum permeability
 ɛ₀     | \\varepsilon\\_0 | Electric constant or vacuum permittivity
 ¬      | neg | Bitwise negation (~)
-∨      | vee | Bitwise or (|)
+∨      | vee | Bitwise or (\|)
 ∧      | wedge | Bitwise and (&)
 ⊕      | oplus | Bitwise xor ($)
 𝑆      | mitS  | Sigmoid function
+ℱ      | mscrF | Fast Fourier transform
+ℱ⁻¹    | \\mscrF\\^-\\^1 | Inverse fast Fourier transform
 
 
 ### TODO

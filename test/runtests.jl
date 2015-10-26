@@ -1,5 +1,8 @@
 using Symbols
 using Base.Test
 
-# write your own tests here
-@test 1 == 1
+@test ⊤⊕⊥
+@test begin
+    v = randn(64)
+    ℱ⁻¹(ℱ(v)) ≈ v
+end
