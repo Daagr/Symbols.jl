@@ -47,6 +47,9 @@ tau    |        | τ
 ħ      | \\hbar | Reduced Planck's constant
 ℯ      | \\mscre | Elementary charge
 𝐺      | \\mitG  | Gravitational constant
+𝑔₀     | \\mitg\\_0 | Standard gravity on Earth
+𝐿      | \\mitL | Avogadro constant
+𝑅      | \\mitR | Ideal gas constant
 AU     |       | Astronomical unit
 ly     |       | Light-year
 pc     |       | Parsec

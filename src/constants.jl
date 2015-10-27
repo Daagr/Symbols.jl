@@ -78,3 +78,10 @@ const AU = 149597870700 * Meter
 const ly = 9460730472580800 * Meter
 "Parsec"
 const pc = 648000/π * AU
+
+"Standard gravity on Earth (\\mitg\\_0)"
+const 𝑔₀ = 9.80665 * Meter / Second^2
+"Avogadro constant (\\mitL)"
+const 𝐿 = 6.022140857e23 / Mole
+"Ideal gas constant (\\mitR)"
+const 𝑅 = 8.3144598 * Joule * Mole^-1 * Kelvin^-1
