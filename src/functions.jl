@@ -1,3 +1,6 @@
+"Fourth root (\\fourthroot)"
+∜x = x^(1/4)
+
 "Real part of complex number (\\Re)"
 const ℜ = real
 "Imaginary part of complex number (\\Im)"

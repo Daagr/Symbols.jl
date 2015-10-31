@@ -1,5 +1,7 @@
 # Symbols
 
+A bunch of functions and constants as unicode symbols.
+
 ### What?
 
 Have you ever wanted to write code like:
@@ -7,8 +9,9 @@ Have you ever wanted to write code like:
 - ℜ(τ^𝑖)
 - ℱ⁻¹(ℱ(v)) ≈ v
 - ⊤⊕⊥
-- √n::ℝ = √ℂ(n)
+- ∜n::ℝ = ∜ℂ(n)
 - sin(15°)
+- map((∜)∘abs, -4:4)
 
 Well, I have.
 
@@ -39,6 +42,7 @@ tau    |        | τ
 ℚ      | \\BbbQ | Rational numbers
 ℂ      | \\BbbC | Complex
 ℍ      | \\BbbH | Quaternion
+∜      | \\fourthroot | Fourth root (sqrt and cbrt are in Base)
 ℜ      | \\Re   | Real part of complex number
 ℑ      | \\Im   | Imaginary part of complex number
 ∠      | \\angle | Phase angle of complex number
